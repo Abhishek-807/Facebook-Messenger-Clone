@@ -1,0 +1,65 @@
+button{
+background-color: #C2FBD7;
+border-radius: 50px;
+border-width: 0;
+box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+color: #008000;
+cursor: pointer;
+display: inline-block;
+font-family: Arial, sans-serif;
+font-size: 1em;
+height: 40px;
+padding: 0 20px;
+transition:  200ms;
+
+}
+ button:hover{
+     background-color: #AFE6C3;
+     transform: scale(1.05);
+ }
+ 
+ .file{
+     text-align: center;
+ }
+ .message{
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+    background-color: lightgray;
+    border-radius: 5px;
+ }
+   .message__user{
+    margin-left: auto;
+    color: rgb(255, 253, 253);
+    text-align: right !important;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(46, 46, 209) !important;
+   }
+   .message__userCard{
+    background-color: rgb(46, 46, 209) !important;
+   }
+.message__guestCard{
+    background-color: lightgray !important;
+}
+.app__form{
+   padding: 20px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: #e9e9e9;
+    width: 100%;
+    margin: 18px;
+}
+.app__control{
+    display: flex !important;
+    flex-direction: row !important;
+}
+.app__iconButton{
+    flex: 0;
+}
+.app__input{
+   flex: 0.96;
+}
+
+
